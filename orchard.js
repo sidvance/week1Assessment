@@ -160,7 +160,6 @@ console.log(fujiTons, galaTons, pinkTons)
 
 
 
-
 // PROBLEM 5
 
 /*
@@ -178,25 +177,24 @@ console.log(fujiTons, galaTons, pinkTons)
 */
 
 
-
 let fujiPounds = fujiTons.slice()
 let galaPounds = galaTons.slice()
 let pinkPounds = pinkTons.slice()
+let totalFujiPounds = 0
+let totalGalaPounds = 0
+let totalPinkPounds = 0
+
 
 for (let i = 0; i < fujiPounds.length; i++){
     fujiPounds[i] *= 2000;
     galaPounds[i] *= 2000;
     pinkPounds[i] *= 2000;
-
+    totalFujiPounds += fujiPounds[i];
+    totalGalaPounds += galaPounds[i];
+    totalPinkPounds += pinkPounds[i];
 }
-console.log(fujiPounds, galaPounds, pinkPounds)
+console.log(totalFujiPounds, totalGalaPounds, totalPinkPounds)
 
-// let totalAcres = 0
-
-//  for (let i = 0; i < fujiAcres.length; i++){
-//      totalAcres += fujiAcres[i] + galaAcres[i] + pinkAcres[i]
-//  }
-//  console.log(totalAcres)
 
 
 // PROBLEM 6
