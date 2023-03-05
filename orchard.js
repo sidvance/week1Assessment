@@ -213,11 +213,15 @@ console.log(totalFujiPounds, totalGalaPounds, totalPinkPounds)
     console. 
 */
 
-// CODE HERE
+// const fujiPrice = .89 
+// const galaPrice = .64
+// const pinkPrice = .55
 
-// let fujiProfit =
-// let galaProfit =
-// let pinkProfit =
+let fujiProfit = totalFujiPounds * .89
+let galaProfit = totalGalaPounds * .64
+let pinkProfit = totalPinkPounds * .55
+
+console.log(fujiProfit, galaProfit, pinkProfit)
 
 
 
@@ -234,4 +238,5 @@ console.log(totalFujiPounds, totalGalaPounds, totalPinkPounds)
     Log `totalProfit` to the console.
 */
 
-// CODE HERE
+let totalProfit = fujiProfit + galaProfit + pinkProfit
+console.log(totalProfit)
